@@ -1,0 +1,128 @@
+.store {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+
+.head {
+    width: 100%;
+    height: 1.06rem;
+    background: #00b2ed;
+    position: fixed;
+    z-index: 999;
+}
+
+.head .logo {
+    float: left;
+    width:3.6rem;
+    height:100%;
+}
+
+.head .logo img {
+    display: block;
+    width:3.6rem;
+    height:0.6rem;
+    margin-left: .24rem;
+    margin-top: .22rem;
+}
+
+.head span {
+    float: left;
+    text-align: center;
+    line-height: 1.06rem;
+    color: #fff;
+    font-size: .42rem;
+    font-weight: 400;
+    margin-left: 1.2rem;
+}
+
+.swiper-container-horizontal > .swiper-pagination-bullets, .swiper-pagination-custom, .swiper-pagination-fraction {
+    bottom: -5px !important;
+}
+
+.swiper-pagination-bullet-active {
+    background: #ffffff !important;
+}
+
+.swiper-container {
+    width: 100%;
+    height: 3.7rem;
+    margin-top: 1.06rem !important;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+.swiper-slide a {
+    display: block;
+    width: 100%;
+    margin-top: -0.9rem;
+}
+
+.swiper-slide a img {
+    display: block;
+    width: 100%;
+}
+
+.choose {
+    width: 100%;
+    margin: 0 auto;
+    font-size: .35rem;
+    text-align: center;
+    line-height: 1.2rem;
+    overflow: hidden;
+}
+
+.choose li {
+    width: 50%;
+    background: #00b2ed;
+    margin-top: 3%;
+    border-radius: 0.06rem;
+}
+
+.choose li a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    color: #ffffff;
+}
+
+.choose .choose-left {
+    float: left;
+    width: 46%;
+    /*background-image:linear-gradient(-45deg, #324989 1rem, #2FCACD 2rem);*/
+    margin-left: .24rem;
+    background: #00b2ed;
+}
+
+.choose .choose-right {
+    float: right;
+    width: 46%;
+    margin-right: .24rem;
+    background: #00b2ed;
+}
+
+
+
+
+
+
+
+
+
+

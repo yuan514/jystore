@@ -1,0 +1,79 @@
+.head .back {
+    float: left;
+    width: 1.06rem;
+    height: 100%;
+}
+.head .back a{
+    display:block;
+    width:100%;
+    height:100%;
+}
+.head .back a img {
+    display: block;
+    width: .5rem;
+    height: .5rem;
+    margin-top:.25rem;
+    margin-left:.2rem;
+}
+
+.head i {
+    display: block;
+    float:left;
+    width:3.22rem;
+    margin: 0 auto;
+    font-size: .32rem;
+    font-style: normal;
+    line-height: 1.06rem;
+    text-align: center;
+    margin-left:1.1rem;
+    color:#ffffff;
+}
+
+.head .search {
+    float: right;
+    width: 1.06rem;
+    height: 100%;
+}
+
+.head .search a > img{
+    display: block;
+    width: .5rem;
+    height: .5rem;
+    margin-top:.25rem;
+    margin-left:.2rem;
+}
+
+
+.must-banner {
+    width: 100%;
+    height: 3.15rem;
+    margin-top: 1.06rem;
+}
+
+.must-banner img {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.description {
+    color: #64584a;
+    font-size: .24rem;
+    padding: .2rem .3rem;
+}
+
+.mark-must{
+    width:7.5rem;
+    height:13.34rem;
+    background:rgba(0,0,0,.9);
+    position:fixed;
+    z-index: 9999;
+    display:none;
+}
+.mark-must img{
+    display:block;
+    width:5.6rem;
+    height:3.2rem;
+    margin:0 auto;
+    margin-top:5rem;
+}

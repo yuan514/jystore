@@ -1,0 +1,175 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.store {
+    width: 100%;
+    height: auto;
+}
+
+.head {
+    width: 100%;
+    height: 1rem;
+    background: #00b2ed;
+}
+
+.head .back {
+    float: left;
+    width: 1.06rem;
+    height: 100%;
+}
+
+.head .back a {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.head .back a img {
+    display: block;
+    width: .5rem;
+    height: .5rem;
+    margin-top: .25rem;
+    margin-left: .2rem;
+}
+
+.head .search-input {
+    float: left;
+    width: 5rem;
+    height: .8rem;
+    box-sizing: border-box;
+    margin-top: .1rem;
+    border: 0;
+    padding-left: .2rem;
+}
+
+.head .search-pic {
+    display: block;
+    width: 1rem;
+    float: left;
+    font-size: .3rem;
+    color: #404040;
+    text-align: center;
+    line-height: 1rem;
+    text-decoration: none;
+    margin-left:.2rem;
+}
+
+.hot {
+    width: 93.6%;
+    height: auto;
+    margin: 0 auto;
+}
+
+.hot span {
+    display: block;
+    font-size: .28rem;
+    color: #c3c3c3;
+    margin-top: .3rem;
+    margin-bottom: .1rem;
+}
+
+.hot ul {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+.hot ul li {
+    width: 24%;
+    background: #F6F7F8;
+    padding: .1rem;
+    box-sizing: border-box;
+    float: left;
+    margin-left: .09rem;
+    border-radius: .2rem;
+    margin-top: .2rem;
+}
+
+.hot ul li .point-search{
+    display:block;
+    width:100%;
+    height:100%;
+    text-decoration: none;
+}
+.hot ul li:nth-child(1) {
+    margin-left: 0;
+}
+
+.hot ul li:nth-child(5) {
+    margin-left: 0;
+}
+
+.hot ul li:nth-child(9) {
+    margin-left: 0;
+}
+
+.hot ul li:nth-child(13) {
+    margin-left: 0;
+}
+
+.hot ul li .point-search img {
+    display: block;
+    width: .8rem;
+    height: .8rem;
+    margin: 0 auto;
+    margin-top: .1rem;
+}
+
+.hot ul li .point-search em {
+    display: block;
+    width: 100%;
+    height: .5rem;
+    font-size: .26rem;
+    color: #404040;
+    font-style: normal;
+    text-align: center;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    line-height: 0.5rem;
+    margin-top: .1rem;
+}
+
+.hot ul li .down-search{
+    display: block;
+    width: 1.08rem;
+    height: .44rem;
+    background: #ffffff;
+    border-radius: .5rem;
+    color: #00b2ed;
+    font-size: .28rem;
+    text-decoration: none;
+    margin: 0 auto;
+    margin-top: .2rem;
+    text-align: center;
+    line-height: .44rem;
+    margin-bottom: .2rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
